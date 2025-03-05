@@ -3,7 +3,7 @@
 
 ## 📌 Nom du dépôt suggéré  
   
-*(Alternatives : , , )*
+*(Alternatives : voir 'repository-name-ideas.md' )*
 
 ## 📖 Description  
 Ce projet propose un script Python interactif pour calculer des paramètres clés en aérodynamique :  
