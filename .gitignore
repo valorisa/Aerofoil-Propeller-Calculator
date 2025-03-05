@@ -1,0 +1,48 @@
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environnements virtuels
+venv/
+.env/
+.venv/
+pipenv/
+virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Données sensibles
+.env
+*.env
+*.ini
+*.cfg
+*.key
+
+# Logs et bases de données
+*.log
+*.sqlite3
+
+# Tests et rapports
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Builds
+build/
+dist/
+*.egg-info/
