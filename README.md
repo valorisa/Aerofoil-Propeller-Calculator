@@ -14,24 +14,32 @@ Ce projet propose un script Python interactif pour calculer des paramètres clé
 
 ## 🚀 Fonctionnalités  
 1. **Calcul de la portance et traînée**  
-   - Utilise les équations :  
-     \$\$ P = \frac{1}{2} \rho V^2 S C_P \$\$  
-     \$\$ T = \frac{1}{2} \rho V^2 S C_T \$\$  
-
+   - Utilise les équations :
+     ```math
+      P = \frac{1}{2} \rho V^2 S C_P
+     ```
+     ```math
+      T = \frac{1}{2} \rho V^2 S C_T 
+     ```
+     
 2. **Calcul de la poussée et couple d'une hélice**  
-   - Formules :  
-     \$\$ T = \frac{C_T \rho \omega^2 D^4}{8} \$\$  
-     \$\$ Q = \frac{C_Q \rho \omega^2 D^5}{8} \$\$  
-
-3. **Nombre de Reynolds**  
-   - \$\$ Re = \frac{\rho V L}{\mu} \quad \text{ou} \quad Re = \frac{V L}{\nu} \$\$  
-
-4. **Méthode BEM simplifiée**  
-   - Intègre la poussée et le couple via des éléments de pale.
+   - Formules :
+     ```math
+     T = \frac{C_T \rho \omega^2 D^4}{8}
+     ```
+     ```math
+     Q = \frac{C_Q \rho \omega^2 D^5}{8}
+    ```
+3. **Nombre de Reynolds**
+   ```math
+    Re = \frac{\rho V L}{\mu} \quad \text{ou} \quad Re = \frac{V L}{\nu}
+```
+4. **Méthode BEM simplifiée**
+   Intègre la poussée et le couple via des éléments de pale.
 
 
 ## 📦 Structure du dépôt  
-```  
+```
 Aerofoil-Propeller-Calculator/  
 ├── AeroDynaCalc.py      # Script principal  
 ├── README.md            # Ce fichier  
@@ -56,11 +64,16 @@ Le script propose un menu interactif :
 - **Couple** : Effort de rotation induit par la traînée.  
 
 ### 3. **Méthode BEM**  
-- **Équations clés** :  
-  \$\$ W = \sqrt{(u^2 + V_{in}^2)} \$\$  
-  \$\$ \phi = \arctan\left(\frac{V_{in}}{u}\right) \$\$  
-  \$\$ dT = B \cdot L_{\text{par unité}} \cdot dr \$\$  
-
+- **Équations clés** :
+```math
+  W = \sqrt{(u^2 + V_{in}^2)}
+```
+```math
+  \phi = \arctan\left(\frac{V_{in}}{u}\right)
+```
+  ```math
+  dT = B \cdot L_{\text{par unité}} \cdot dr 
+```
 
 ## 🤝 Contributions  
 - **Améliorations souhaitées** :  
