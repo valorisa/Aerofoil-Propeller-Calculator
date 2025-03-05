@@ -33,12 +33,12 @@ Ce projet propose un script Python interactif pour calculer des paramètres clé
 3. **Nombre de Reynolds**
    ```math
     Re = \frac{\rho V L}{\mu} \quad \text{ou} \quad Re = \frac{V L}{\nu}
-```
+   ```
 4. **Méthode BEM simplifiée**
 - Intègre la poussée et le couple via des éléments de pale.
 
 
-## 📦 Structure du dépôt  
+## 📦 Structure du dépôt
 ```
 Aerofoil-Propeller-Calculator/  
 ├── AeroDynaCalc.py      # Script principal  
