@@ -29,11 +29,13 @@ Ce projet propose un script Python interactif pour calculer des paramètres clé
      ```
      ```math
      Q = \frac{C_Q \rho \omega^2 D^5}{8}
-    ```
+     ```
+    
 3. **Nombre de Reynolds**
    ```math
     Re = \frac{\rho V L}{\mu} \quad \text{ou} \quad Re = \frac{V L}{\nu}
    ```
+
 4. **Méthode BEM simplifiée**
 - Intègre la poussée et le couple via des éléments de pale.
 
@@ -69,9 +71,9 @@ Le script propose un menu interactif :
   W = \sqrt{(u^2 + V_{in}^2)}
 ```
 ```math
-  \phi = \arctan\left(\frac{V_{in}}{u}\right)
+  phi = \arctan\left(\frac{V_{in}}{u}\right)
 ```
-  ```math
+```math
   dT = B \cdot L_{\text{par unité}} \cdot dr 
 ```
 
@@ -83,7 +85,7 @@ Le script propose un menu interactif :
 
 - **Comment contribuer** :  
   1. Fork le dépôt.  
-  2. Créez une branche ().  
+  2. Créez une branche (*new-branch*).  
   3. Validez les tests (à ajouter).  
   4. Soumettez une Pull Request.
 
