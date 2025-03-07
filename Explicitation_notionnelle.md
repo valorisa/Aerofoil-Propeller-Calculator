@@ -43,7 +43,7 @@ The elements of aerofoil and airscrew (propeller) theory are foundational to aer
     ```math
     P = \tau \omega
     ```
-    where \( \tau \) = torque, \( \omega \) = angular velocity.
+    where \( tau \) = torque, \( omega \) = angular velocity.
 
 - **Pitch and Geometry**: 
   - **Geometric Pitch**: The theoretical distance advanced per revolution in a solid medium.
