@@ -56,7 +56,7 @@ The elements of aerofoil and airscrew (propeller) theory are foundational to aer
     ```math
     T = \dot{m} (V_{exit} - V_{inlet})
     ```
-    where \( \dot{m} \) = mass flow rate.
+    where \( dot{m} \) = mass flow rate.
   - Efficiency:
     ```math
     \eta = \frac{T \cdot V_{axial}}{P}
