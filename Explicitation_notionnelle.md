@@ -10,7 +10,7 @@ The elements of aerofoil and airscrew (propeller) theory are foundational to aer
     ```math
     L = \frac{1}{2} \rho V^2 S C_L
     ```
-    where \( \rho \) = air density, \( V \) = velocity, \( S \) = area, \( C_L \) = lift coefficient.
+    where \( rho \) = air density, \( V \) = velocity, \( S \) = area, \( C_L \) = lift coefficient.
   - **Drag Equation**:
     ```math
     D = \frac{1}{2} \rho V^2 S C_D
