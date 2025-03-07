@@ -1,6 +1,6 @@
 # Propositions de noms pour le dépôt  
 
-Voici une liste de noms potentiels pour votre projet, classés par thème, avec des explications pour chaque choix :
+Voici une liste de noms potentiels pour ce projet, classés par thème, avec des explications pour chaque choix :
 
 ---
 
