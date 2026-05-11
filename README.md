@@ -125,9 +125,11 @@ Re = \frac{\rho V L}{\mu} \quad \text{ou} \quad Re = \frac{V L}{\nu}
 ```
 
 où :
+- ρ = densité du fluide (kg/m³)
+- V = vitesse (m/s)
 - L = longueur caractéristique (m)
 - μ = viscosité dynamique (Pa·s)
-- ν = viscosité cinématique (m²/s)
+- ν = viscosité cinématique (m²/s) où ν = μ/ρ
 
 Le nombre de Reynolds détermine le régime d'écoulement (laminaire/turbulent) et influence fortement les performances aérodynamiques.
 
