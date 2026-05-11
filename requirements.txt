@@ -1,0 +1,15 @@
+# Requirements pour AeroDynaCalc
+# Calculateur aérodynamique pour profils d'aile et hélices
+
+# Bibliothèque mathématique pour les calculs numériques
+# Utilisée pour : sqrt, pi, atan, trigonométrie dans les calculs aérodynamiques
+# Fait partie de la bibliothèque standard Python (pas besoin d'installation)
+# math
+
+# Note : Ce projet utilise uniquement la bibliothèque standard Python.
+# Aucune dépendance externe n'est requise pour l'instant.
+#
+# Pour des extensions futures (visualisation, optimisation), considérer :
+# numpy>=1.21.0        # Calculs numériques avancés
+# matplotlib>=3.4.0    # Visualisation des résultats
+# scipy>=1.7.0         # Optimisation et interpolation
